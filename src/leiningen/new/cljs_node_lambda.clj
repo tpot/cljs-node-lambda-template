@@ -11,4 +11,6 @@
               :sanitized (name-to-path name)}]
     (main/info "Generating fresh 'lein new' cljs-node-lambda project.")
     (->files data
-             ["src/{{sanitized}}/foo.clj" (render "foo.clj" data)])))
+             ["Makefile" (render "Makefile" data)]
+             ["project.clj" (render "project.clj" data)]
+             ["src/{{sanitized}}/main.cljs" (render "main.cljs" data)])))
