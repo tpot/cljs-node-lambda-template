@@ -17,6 +17,7 @@ function to make AWS API calls.
 
 ## License
 
+```
 Copyright © 2020 Tim Potter <tim.potter@viasat.com>
 
 This program and the accompanying materials are made available under the
@@ -29,3 +30,4 @@ Public License, v. 2.0 are satisfied: GNU General Public License as published by
 the Free Software Foundation, either version 2 of the License, or (at your
 option) any later version, with the GNU Classpath Exception which is available
 at https://www.gnu.org/software/classpath/license.html.
+```
